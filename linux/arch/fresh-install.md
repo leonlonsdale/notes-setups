@@ -32,7 +32,7 @@ sudo pacman -S discord bitwarden obsidian --needed
 brew install eza fastfetch fd jq zoxide zsh-autosuggestions zsh-syntax-highlighting yazi
 ```
 
-### Language Stuff from Brew
+### Language Stuff
 
 #### Python
 
@@ -51,9 +51,14 @@ brew install go goimports golangci-lint golangci-lint-langserver gopls
 ```bash
 brew install typescript biome pgformatter prettier sql-language-server tailwindcss-language-server typescript-language-server vscode-langservers-extracted oven-sh/bun/bun node
 ```
+```bash
+npm i -g @olrtg/emmet-language-server
+```
 
 #### Misc
 
 ```bash
 brew install gh git marksman stylua yaml-language-server 
 ```
+
+
