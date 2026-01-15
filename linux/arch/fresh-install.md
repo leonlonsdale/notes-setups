@@ -17,13 +17,13 @@ sudo pacman -Syu
 ### Utility and apps
 
 ```bash
-sudo pacman -S yay wayland hyprland swaync zsh starship
+sudo pacman -S yay wayland hyprland swaync zsh starship --needed
 ```
 
 ### GUI Software
 
 ```bash
-sudo pacman -S discord bitwarden obsidian
+sudo pacman -S discord bitwarden obsidian --needed
 ```
 
 ### Utils from Brew
