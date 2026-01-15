@@ -18,6 +18,14 @@ alias bfr='rm -f ~/.config/homebrew/Brewfile && brew bundle dump --file=~/.confi
 
 Note, the following will not work unless the packages have been installed. See Linux or MacOS fresh install documents.
 
+### Enabling Homebrew
+
+Add the following to the start of the `.zshrc`:
+
+```bash
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
+```
+
 ### Enabling Starship
 
 Add the following to the start of `.zshrc`. This is optional. Without this line you simply add the starship.toml to `~/.config`
