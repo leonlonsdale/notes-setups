@@ -3,7 +3,7 @@
 ## Get Homebrew
 
 ```web
-https://homebrew.sh
+https://brew.sh
 ```
 
 ## Check for updates
@@ -29,7 +29,7 @@ sudo pacman -S discord bitwarden obsidian --needed
 ### Utils from Brew
 
 ```bash
-brew install exa fastfetch fd jq zoxide zsh-autosuggestions zsh-syntax-highlighting yazi
+brew install eza fastfetch fd jq zoxide zsh-autosuggestions zsh-syntax-highlighting yazi
 ```
 
 ### Language Stuff from Brew
