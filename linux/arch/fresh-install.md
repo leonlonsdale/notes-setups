@@ -61,4 +61,8 @@ npm i -g @olrtg/emmet-language-server
 brew install gh git marksman stylua yaml-language-server 
 ```
 
+## Fonts
 
+```bash
+sudo pacman -S ttf-jetbrains-mono-nerd
+```
