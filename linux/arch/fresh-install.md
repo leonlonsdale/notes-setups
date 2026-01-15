@@ -17,11 +17,43 @@ sudo pacman -Syu
 ### Utility and apps
 
 ```bash
-sudo pacman -S yay wayland hyprland swaync zsh eza fastfetch
+sudo pacman -S yay wayland hyprland swaync zsh starship
 ```
 
 ### GUI Software
 
 ```bash
-sudo pacman -S discord bitwarden
+sudo pacman -S discord bitwarden obsidian
+```
+
+### Utils from Brew
+
+```bash
+brew install exa fastfetch fd jq zoxide zsh-autosuggestions zsh-syntax-highlighting yazi
+```
+
+### Language Stuff from Brew
+
+#### Python
+
+```bash
+brew install python uv basedpyright ruff
+```
+
+#### Golang
+
+```bash
+brew install go goimports golangci-lint golangci-lint-langserver gopls
+```
+
+#### Web stuff
+
+```bash
+brew install typescript biome pgformatter prettier sql-language-server tailwindcss-language-server typescript-language-server vscode-langservers-extracted oven-sh/bun/bun node
+```
+
+#### Misc
+
+```bash
+brew install gh git marksman stylua yaml-language-server 
 ```
