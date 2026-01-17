@@ -14,7 +14,7 @@ Change:
 Then:
 
 ```bash
-sude grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 # Package installs
@@ -38,7 +38,7 @@ sudo pacman -Syu
 #### Terminal & CLI
 
 ```bash
-sudo pacman -S yay wayland hyprland swaync zsh starship stow ghostty eza fastfetch fd jq zoxide zsh-autosuggestions zsh-syntax-highlighting yazi gh git ttf-jetbrains-mono-nerd --needed --noconfirm
+sudo pacman -S yay waybar hyprland swaync zsh starship stow ghostty eza fastfetch fd jq zoxide zsh-autosuggestions zsh-syntax-highlighting yazi github-cli git ttf-jetbrains-mono-nerd --needed --noconfirm
 ```
 
 ### GUI Software
