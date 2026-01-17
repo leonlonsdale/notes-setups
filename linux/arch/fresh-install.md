@@ -1,3 +1,22 @@
+# Dual boot
+
+Edit grub config:
+
+```bash
+sudo vim /etc/default/grub
+```
+
+Change:
+
+- GRUB_TIMEOUT='5' to a longer timeout
+- GRUB_DISABLE_OS_PROBER=false - uncomment
+
+Then:
+
+```bash
+sude grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 # Package installs
 
 ## Get Homebrew
