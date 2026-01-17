@@ -14,55 +14,31 @@ sudo pacman -Syu
 
 ## Get packages
 
-### Utility and apps
+### pacman
+
+#### Terminal & CLI
 
 ```bash
-sudo pacman -S yay wayland hyprland swaync zsh starship --needed
+sudo pacman -S yay wayland hyprland swaync zsh starship stow ghostty eza fastfetch fd jq zoxide zsh-autosuggestions zsh-syntax-highlighting yazi gh git ttf-jetbrains-mono-nerd --needed --noconfirm
 ```
 
 ### GUI Software
 
 ```bash
-sudo pacman -S discord bitwarden obsidian --needed
+sudo pacman -S discord bitwarden obsidian --needed --noconfirm
 ```
+### brew
 
-### Utils from Brew
+#### Language Stuff with Brew
 
 ```bash
-brew install eza fastfetch fd jq zoxide zsh-autosuggestions zsh-syntax-highlighting yazi
-```
-
-### Language Stuff
-
-#### Python
-
-```bash
-brew install python uv basedpyright ruff
-```
-
-#### Golang
-
-```bash
-brew install go goimports golangci-lint golangci-lint-langserver gopls
-```
-
-#### Web stuff
-
-```bash
-brew install typescript biome pgformatter prettier sql-language-server tailwindcss-language-server typescript-language-server vscode-langservers-extracted oven-sh/bun/bun node
-```
-```bash
+brew install typescript biome pgformatter prettier sql-language-server tailwindcss-language-server typescript-language-server vscode-langservers-extracted oven-sh/bun/bun node go goimports golangci-lint golangci-lint-langserver gopls python uv basedpyright ruff marksman stylua yaml-language-server
 npm i -g @olrtg/emmet-language-server
 ```
 
-#### Misc
+# Dotfiles
 
 ```bash
-brew install gh git marksman stylua yaml-language-server 
-```
-
-## Fonts
-
-```bash
-sudo pacman -S ttf-jetbrains-mono-nerd
+cd ~
+git clone --depth 1 --branch main https://github.com/leonlonsdale/dots.git -d
 ```
