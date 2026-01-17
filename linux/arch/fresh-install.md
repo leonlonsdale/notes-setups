@@ -36,9 +36,23 @@ brew install typescript biome pgformatter prettier sql-language-server tailwindc
 npm i -g @olrtg/emmet-language-server
 ```
 
+# Change Shell
+
+```bash
+chsh -s "$(which zsh)"
+```
+
 # Dotfiles
 
 ```bash
 cd ~
 git clone --depth 1 --branch main https://github.com/leonlonsdale/dots.git -d
+cd dots
+stow .
+```
+
+restart the terminal
+
+```bash
+source ~/.zshrc
 ```
