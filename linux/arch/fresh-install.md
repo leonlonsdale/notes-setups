@@ -38,7 +38,7 @@ sudo pacman -Syu
 #### Terminal & CLI
 
 ```bash
-sudo pacman -S yay waybar hyprland swaync zsh starship stow ghostty eza fastfetch fd jq zoxide zsh-autosuggestions zsh-syntax-highlighting yazi github-cli git ttf-jetbrains-mono-nerd --needed --noconfirm
+sudo pacman -S yay waybar hyprland swaync zsh starship stow ghostty eza fastfetch fd jq zoxide zsh-autosuggestions zsh-syntax-highlighting yazi github-cli git ttf-jetbrains-mono-nerd polkit-gnome --needed --noconfirm
 ```
 
 ### GUI Software
